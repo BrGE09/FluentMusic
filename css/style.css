@@ -1,0 +1,455 @@
+
+body {
+    height: 100%;
+    background-color: #ebebeb !important;
+}
+
+h1,h2,h3,h4,h5 {
+    color: rgb(0, 0, 0);
+}
+
+.containt{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%) !important;
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 8px;
+}
+
+.headerTitle{
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    width: 77% !important;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%) !important;
+    position: fixed;
+    margin-left: -30px;
+}
+
+.flContainer{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 30px !important;
+    position: fixed;
+}
+
+audio{
+    border-radius: 30px !important;
+    margin-top: 3px;
+    float: right;
+    background-color: none !important;
+    width: 70% !important;
+}
+
+hr {
+    background-color: white;
+}
+
+.p{
+    color: #D1D1D1;
+}
+
+.navDesign {
+    background-color: rgba(1, 7, 41, 9);
+    backdrop-filter: blur(30px);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nav-link {
+    color: rgb(212, 212, 212);
+    margin: 15px;
+}
+
+.active {
+    background-color: none !important;
+    color: rgb(1, 7, 41) !important;
+    border-style: solid !important;
+    border: 5px;
+    border-top: rgb(0, 17, 116) !important;
+    border-left: rgb(0, 17, 116) !important; 
+    border-right: rgb(1, 7, 41) !important; ;
+}
+
+a {
+    color: rgb(0, 17, 116) !important;
+    text-decoration: none;
+}
+
+.navhov:hover {
+    color: white; 
+}
+
+.imghov:hover {
+    filter: invert(100%);
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 25px !important;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 1) !important;
+}
+
+.close {
+    width: 55px;
+    height: 55px;
+}
+
+#header .top {
+    position: relative;
+    margin: 0 auto;
+    width: 1160px;
+    height: 75px;
+}
+
+#header .top .logo_nec {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 10;
+}
+
+#header .top .logo_vote {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+#header .top .util {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    left: auto;
+    overflow: hidden;
+    width: auto;
+    margin-left: inherit;
+}
+
+.closing:hover {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    width: 55px;
+    height: 55px;
+}
+
+.cardEdit {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    border-radius: 25px !important;
+    color: black !important;
+    backdrop-filter: blur(8px);
+}
+
+.cardHover:hover {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow:1px 1px 20px rgb(0 0 0 / 20%) !important;
+}
+
+.loginDialogCont {
+    background-color: rgba(255, 255, 255, 1) !important;
+    backdrop-filter: blur(50px) !important;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%) !important;
+}
+
+
+.circle {
+    border-radius: 50px !important;
+    background-color: rgb(0, 68, 255) !important;
+    color: white !important;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.fluentcontaint {
+    background-color: rgba(213, 213, 213, 0.8) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 25px !important;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.fluentcontaintDark {
+    background-color: rgba(45, 45, 45, 0.492) !important;
+    backdrop-filter: blur(6px) !important;
+    color: white !important;
+    border-radius: 30px !important;
+}
+
+.cardEdit2 {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 25px !important;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+
+.table table thead {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+}
+
+.tr {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+
+.toast-type-notice {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 35px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 80%;
+    box-shadow: 5px 5px 50px black !important;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* .inputFocus:focus {
+    background-color: rgb(255, 255, 255, 0.3) !important;
+    border-radius: 8px !important;
+    outline: none !important;
+    border: 1 !important;
+    border-color: blueviolet;
+} */
+
+input[type=”file”]#mi-archivo {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label[for="mi-archivo"] {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 15px 40px !important;
+    font-size: 14px;
+    width: fit-content;
+    text-align: center;
+}
+
+label[for="mi-archivo"]:hover {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    background-color: rgba(196, 196, 196, 0.2) !important;
+    box-shadow: 3px 3px 5px black !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 15px 40px !important;
+    width: fit-content;
+    text-align: center;
+}
+
+.input{
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    /*height: 32px;*/
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,.6);
+    /*height: 36px;*/
+    outline: none !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+.input:focus{
+    padding: 4px 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.4);
+    /*height: 32px;*/
+    padding: 6px 10px;
+    border-width: 1px;
+    border-color: #666;
+    border-color: rgba(0,0,0,.6);
+    /*height: 36px;*/
+    outline: none !important;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    background-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 1) !important;
+    backdrop-filter: blur(6px) !important;
+    border-radius: 14px !important;
+}
+
+td a {
+    min-width: 2px;
+}
+
+.btns {
+    border-radius: 15px !important;
+}
+
+.btns-normal {
+    border-radius: 10px !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.btns-hover:hover {
+    background-color: rgba(255, 255, 255, 0.503) !important;
+}
+
+.btns-save {
+    border-radius: 10px !important;
+    color: rgba(13, 78, 0, 0.596) !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.btns-delete {
+    border-radius: 10px !important;
+    color: red !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.btns-hoverLogin:hover {
+    background-color: rgb(212, 191, 0) !important;
+}
+
+.btns-login{
+    border-radius: 10px !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(198, 178, 0) !important;
+}
+
+
+.btns-cancel {
+    border-radius: 10px !important;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+
+.contentScroll {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.contentScroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.contentScroll::-webkit-scrollbar-thumb {
+    background: rgba(212, 211, 211, 0.5);
+    border-radius: 25px;
+}
+
+.contentScroll::-webkit-scrollbar-thumb:active {
+    background: rgba(255, 255, 255, 0.6);
+    width: 10px !important;
+}
+
+.contentScroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    width: 10px !important;
+}
+
+.contentScroll::-webkit-scrollbar-track {
+    border-radius: 25px;
+}
+
+.pModal {
+    font-size: 17px;
+    color: rgb(107, 107, 107) !important;
+}
+
+.inputFocus:focus {
+    background-color: rgb(255, 255, 255, 1) !important;
+    border-radius: 8px !important;
+    box-shadow:1px 1px 20px rgb(0 0 0 / 20%) !important;
+    outline: none !important;
+    border: 0 !important;
+}
+
+.form-control {
+    outline: none !important;
+    border-radius: 14px !important;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+.form-control:focus {
+    display: block;
+    border-radius: 8px !important;
+    outline: none !important;
+    background-image: none;
+}
+
+.btns-Lateral-active{
+    background-color: rgb(1, 7, 41) !important;
+    color: rgb(255, 255, 255) !important;
+    border-style: solid !important;
+    border: 5px;
+    border-top: rgb(255, 255, 255) !important;
+    border-bottom: rgb(255, 255, 255) !important;   
+}
+
+.btns-menuLateral-hover:hover {
+    background-color: rgba(30, 38, 255, 0.1) !important;
+    color: rgb(30, 38, 255);
+}
+
+.lateral button:last-child{
+    bottom: 0px;
+    left: 15px;
+}
