@@ -52,6 +52,10 @@
                             <li class="nav-item">
                                 <a class="nav-link btns-menuLateral-hover" style="width: 100%;" data-bs-toggle="pill" href="#explorar">Explorar</a>
                             </li>
+                            <p></p>
+                            <li class="nav-item">
+                                <button class="btn btn-outline nav-link btns-menuLateral-hover" style="width: 100%;" id="notifications">Notificaciones</button>
+                            </li>
                         </ul>
                     </div>
                    <!--  <p></p>
@@ -239,6 +243,20 @@
                 }
             });
             });
+
+        function randomNotification() {
+            games = ["Cradle of Filth - Sisters of the Mist", "Behemoth - Oh Father, Oh Satan, Oh Sun!", "Unlucky Morpheus - Unending Sorceress", "Swallow The Sun - Moonflowers Bloom In Misery"];
+            var randomItem = Math.floor(Math.random() * games.length);
+            var notifTitle = "FluentMusic";
+            var notifBody = "Ahora suena: " + games[randomItem] + ".";
+            var notifImg = "data/img/" + games[randomItem].slug + ".jpg";
+            var options = {
+                body: notifBody,
+                icon: notifImg,
+            };
+            var notif = new Notification(notifTitle, options);
+            setTimeout(randomNotification, 30000);
+            }
     </script>
 
 </body>
