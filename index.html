@@ -201,7 +201,7 @@
                     <div>
 
                         
-
+                        <center><p class="p"><b>Cargando...</b></p></center>
                         
  
                     </div>
@@ -229,6 +229,17 @@
 
 
     <script src="js/app.js"></script>
+
+    <script>
+        var button = document.getElementById("notifications");
+            button.addEventListener("click", function (e) {
+            Notification.requestPermission().then(function (result) {
+                if (result === "granted") {
+                randomNotification();
+                }
+            });
+            });
+    </script>
 
 </body>
 </html>
