@@ -104,14 +104,52 @@
 
                         <div class="tab-content">
                             <div class="tab-pane container active" style="border: 0; border-color: none !important;" id="canciones">
-                                <center><p class="p"><b>Aún no hay música</b></p></center>
+                                <!-- <center><p class="p"><b>Aún no hay música</b></p></center> -->
+
+                                <div class="cardEdit cardHover">
+                                        <div class="row card-body">
+                                            <p></p>
+                                            <div class="col">
+                                                <p class="card-text">1 &nbsp; Moonflowers Bloom in Misery</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="card-text" style="text-align: center !important;">Swallow The Sun</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="card-text" style="text-align: center !important;">Moonflowers (Deluxe Edition)</p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="card-text" style="text-align: right !important;">6:19</p>
+                                            </div>
+                                            <p></p>
+                                            <a href="" class="btn-primary stretched-link"></a>
+                                        </div>
+                                </div>
+
                             </div>
 
                             <div class="tab-pane container fade" style="border: 0; border-color: none !important;" id="artistas">
                                 <center><p class="p"><b>Aún no hay artistas</b></p></center>
                             </div>
                             <div class="tab-pane container fade" style="border: 0; border-color: none !important;" id="albumes">
-                                <center><p class="p"><b>Aún no hay álbumes</b></p></center>
+                                <!-- <center><p class="p"><b>Aún no hay álbumes</b></p></center> -->
+
+                                <div class="row">
+                                    <h4>Swallow The Sun</h4>
+                                    <p></p>
+                                    <div class="card cardEdit cardHover" style="width:250px; font-size: 15px;">
+                                        <center><img class="fa card-img-top" src="https://www.algoderock.com/wp-content/uploads/2021/08/unnamed.png" style="margin-top:10px; border-radius: 25px;"></center>
+                                        <div class="card-body">
+                                          <center>
+                                              <h4 class="card-title" style="font-size: 15px;"><b> Moonflowers (Deluxe Edition) </b></h4>
+                                              <p class="card-text"></p>
+                                          </center>
+                                          <a data-target="#imagen" data-toggle="modal" class="stretched-link"></a>
+                                        </div>
+                                    </div>
+        
+                                </div>
+
                             </div>
                         </div>
  
@@ -219,15 +257,21 @@
 
     <!-- Panel del Reproductor -->
 
-    <div class="containt">
+    <div class="containt row">
 
+        <div class="col">
+            <img src="https://www.algoderock.com/wp-content/uploads/2021/08/unnamed.png" width="10%" style="float: left !important; margin-right: 20px;">
+            <p style="margin: 13px;">Moonflowers Bloom in Misery</p>
+            <p style="margin-left: 20px; margin-top: -15px; font-size: 13px;">Swallow The Sun</p>
+        </div>
+
+        <div class="col">
+            <audio controls>
         
-        
-        <audio controls>
-    
-            <source src="miaudio.mp3"  type="audio/mp3">
-                
-        </audio>
+                <source src="elementos/Moonflowers Bloom in Misery.mp3"  type="audio/mp3">
+                    
+            </audio>
+        </div>
     
     </div>
 
@@ -244,8 +288,10 @@
             });
             });
 
+            //"Cradle of Filth - Sisters of the Mist", "Behemoth - Oh Father, Oh Satan, Oh Sun!", "Unlucky Morpheus - Unending Sorceress", 
+
         function randomNotification() {
-            games = ["Cradle of Filth - Sisters of the Mist", "Behemoth - Oh Father, Oh Satan, Oh Sun!", "Unlucky Morpheus - Unending Sorceress", "Swallow The Sun - Moonflowers Bloom In Misery"];
+            games = ["Swallow The Sun - Moonflowers Bloom In Misery"];
             var randomItem = Math.floor(Math.random() * games.length);
             var notifTitle = "FluentMusic";
             var notifBody = "Ahora suena: " + games[randomItem] + ".";
