@@ -16,5 +16,43 @@ function startDB()
     {
         console.log('Base de datos cargada con éxito');
         add();
-    }
+    };
+
+    dataBase.onerror = function(e)
+    {
+        console.log('Error al cargar la base de datos');
+    };
 }
+
+function add()
+{
+    var active = dataBase.result;
+    var data = active.transaction(["usuarios"], "readwrite");
+    var object = data.objectStore("usuarios");
+    var dummyData = 
+    [
+        {
+            "nick":"Brandon",
+            "password":"12345"
+        },
+        {
+            "nick":"Julieta",
+            "password":"12345678"
+        }
+    ];
+
+    dummyData.forEach
+    (
+        function(usuario)
+        {
+            object.put(usuario);
+        }
+    );
+
+    data.oncomplete = function(e)
+    {
+        console.log('Usuario agregado correctamente');
+    };
+}
+
+window.addEventListener('load', startDB, false);
