@@ -7,12 +7,5 @@
     "description" : "Música para todos",
     "orientation" : "portrait",
     "scope" : "/",
-    "icons" : [
-        {
-            "src" : "/img/logo.png",
-            "type" : "image/png",
-            "sizes" : "517x375"
-        }
-    ],
     "start_url": "index.html?launcher=true"
 }
