@@ -7,5 +7,5 @@
     "description" : "Música para todos",
     "orientation" : "portrait",
     "scope" : "/",
-    "start_url": "index.html?launcher=true"
+    "start_url": "/"
 }
